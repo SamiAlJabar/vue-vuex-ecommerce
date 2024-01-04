@@ -1,0 +1,156 @@
+@import "variables.scss";
+
+// CUSTOM CLASSES -----------------------------------------------------------------------------------
+.sticky-header {
+    width: 100%;
+    // position: fixed;
+    background-color: $navbar;
+    color: $primary;
+    font-size: $font14;
+    .content {
+        justify-content: space-between;
+        .order {
+            color: $white;
+            font-weight: bold;
+        }
+        .menu:hover {
+            cursor: pointer;
+            text-decoration: underline;
+        }
+    }
+}
+
+.position-fixed { position: fixed; z-index: 999; }
+.float-right { float: right;}
+.float-left { float: left; }
+
+.background-primary { background-color: $primary; }
+.background-secondary { background-color: $secondary; }
+.background-third { background-color: $third; }
+.background-fourth { background-color: $fourth; }
+
+.left-margin { margin-left: 12px; }
+.right-margin { margin-right: 12px; }
+
+.border-radius { border-radius: $border-radius; }
+
+.text-white { color: $white; }
+.text-black { color: black; }
+.text-primary { color: $primary; }
+.text-secondary { color: $secondary; }
+.text-grey { color: $grey; }
+.text-danger { color: $red; }
+
+.cursor-pointer { cursor: pointer; }
+.text-line-through { text-decoration: line-through; }
+
+.text-bold { font-weight: bold; }
+.text-underline { text-decoration: underline; }
+.text-left { text-align: left; }
+
+.text-f12 { font-size: $font12; }
+.text-f14 { font-size: $font14; }
+.text-f16 { font-size: $font16; }
+.text-f24 { font-size: $font24; }
+.text-f40 { font-size: $font40; }
+.no-padding { padding-left: 0px; padding-right: 0px;}
+.no-margin { margin-left: 0px; margin-right: 0px;}
+.letter-spacing { letter-spacing: 2px; }
+.space-between { justify-content: space-between; };
+
+.no-gutter > [class*='col-'] {
+    padding-right:0;
+    padding-left:0;
+}
+
+
+// ICONS -----------------------------------------------------------------------------------
+i {
+    background-image: $sprite;
+    background-size: $background-size-sprite;
+    width: 21px;
+    height: 21px;
+    float: left;
+    margin-right: 5px;
+    zoom: 0.9;
+}
+.nut {
+    background-position: 0px -367px;
+    width: 15px !important;
+    margin-top: 1px;
+}
+.question {
+    background-position: 0px -235px;
+    margin-top: 1px;
+}
+.delivery-box {
+    background-position: 0px -455px;
+}
+.cart {
+    background-position: 0px -345px;
+    margin-top: 1px;
+}
+.bulb {
+    background-image: $bulb !important;
+    background-size: cover !important;
+    zoom: 1.1 !important;
+    margin-top: -3px;
+}
+.star-gold-50,
+.star-gold-45,
+.star-gold-40,
+.star-gold-35,
+.star-gold-30,
+.star-gold-25,
+.star-gold-20,
+.star-gold-15,
+.star-gold-10,
+.star-gold-05,
+.star-gold {
+    position: absolute;
+    height: 30px;
+    background-position: 0px -1026px;
+    background-size: 635px 2397px;
+    zoom: 0.5;
+}
+.star-gold-50 {
+    width: 180px !important;
+}
+.star-gold-45 {
+    width: 165px !important;
+}
+.star-gold-40 {
+    width: 148px !important;
+}
+.star-gold-35 {
+    width: 127px !important;
+}
+.star-gold-30 {
+    width: 110px !important;
+}
+.star-gold-25 {
+    width: 90px !important;
+}
+.star-gold-20 {
+    width: 74px !important;
+}
+.star-gold-15 {
+    width: 53px !important;
+}
+.star-gold-10 {
+    width: 36px !important;
+}
+.star-gold-05 {
+    width: 17px !important;
+}
+.star-gold-05 {
+    width: 0px !important;
+}
+.star-gold-default {
+    
+    width: 180px !important;
+    height: 30px;
+    background-position: 0px -1059px;
+    background-size: 635px 2397px;
+    zoom: 0.5;
+}

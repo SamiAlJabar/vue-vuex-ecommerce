@@ -1,0 +1,29 @@
+.btn {
+  color: black;
+  text-align: center;
+  border: solid 1px $white;
+  font-weight: bold;
+  min-width: 100px;
+}
+.s-button {
+  height: 39px;
+  border-radius: 0 $border-radius $border-radius 0;
+  background-color: $yellow;
+  font-weight: bold;
+  z-index: 999;
+}
+.s2-button {
+  height: 60px;
+  padding: 0 35px;
+  font-size: $font16;
+  background-color: $white;
+}
+.s3-button {
+  height: 39px;
+  background-color: $primary;
+  font-weight: bold;
+  color: white;
+}
+.button-border-radius {
+  border-radius: 100px;
+}
